@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* 
+    ********************
+    Globals
+    ********************
+*/
+
+.margin-bottom-1 {
+    margin-bottom: 1rem;
+}
+
+.rounded-top-left {
+    border-radius: 50px 0px 0px 0px;
+}
+
+.rounded-top-right {
+    border-radius: 0px 50px 0px 0px;
+}
+
+.rounded-bottom-right {
+    border-radius: 0px 0px 50px 0px;
+}
+
+.rounded-bottom-left {
+    border-radius: 0px 0px 0px 50px;
+}
+
+/* 
+    ********************
+    Header
+    ********************
+*/
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-image: url("./img/sample3.png");
+   /* margin-bottom: 2rem; */
+}
+
+header .header-overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header .header-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header .header-icons p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+}
+
+header .material-symbols-outlined {
+    background-color: #ffcb31;
+    border-radius: 50%;
+    padding: 1rem;
+    color: black;
+    margin: 1rem;
+}
+
+header .size-48 {
+    font-size: 3rem;
+    font-variation-settings: 'OPSZ' 48;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* 
+    ********************
+    Main
+    ********************
+*/
+
+main {
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+}
+
+main h2 {
+    font-size: 1.75rem;
+    font-weight: 700px;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+main h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+main>div {
+    margin-bottom: 1rem;
+}
+
+main .course-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+main .learning-goals {
+    background-color: #ffcb31;
+    padding: 1rem;
+}
+
+main .learning-goals ul {
+    list-style-type: square;
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+
+main img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* 
+    ********************
+    Desktop
+    ********************
+*/
+@media screen and (min-width:900px) {
+    .masonry {
+        column-count: 2;
+        column-gap: 1rem;
+        width: 900px;
+        margin: auto;
+    }
+
+    .item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 1rem;
+        break-inside: avoid;
+    }
+
+    main .learning-goals {
+        height: fit-content;
+    }
+
+    header h1 {
+        font-size: 5rem;
+    }
+}
