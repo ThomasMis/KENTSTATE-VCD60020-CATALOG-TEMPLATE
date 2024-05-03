@@ -21,7 +21,7 @@ This repository contains webpage templates for the companion catalog. There are 
 
 ## Customization
 
-- The instructions for customizing the studio template are contained with the HTML file. There are 8 individual steps that are required to populate the template for a new course. Details on each step are in the HTML comments.
+- The instructions for customizing the studio template are contained within the HTML file. There are 8 individual steps that are required to populate the template for a new course. Details on each step are in the HTML comments.
 - The Lecture template is not intended to be reused and can be hosted as-is. Adding new courses to the template will involve copying, pasting, and customizing everything between the `<div class=”masonry”>` element. 
 
 
