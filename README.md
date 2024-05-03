@@ -6,7 +6,7 @@
 
 ## Problem
 
-Undergraduate VCD majors do not have an authoritative resource for previewing the design outcomes of the courses in the VCD curriculum. The existing course catalog only contains textural descriptions. There are no visual examples that illustrate what students will produce. 
+Undergraduate VCD majors do not have an authoritative resource for previewing the design outcomes of the courses in the VCD curriculum. The existing course catalog only contains textual descriptions. There are no visual examples that illustrate what students will produce. 
 
 ## Solution
 
