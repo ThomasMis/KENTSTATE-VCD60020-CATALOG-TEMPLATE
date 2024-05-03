@@ -1,4 +1,5 @@
 # Course Catalog Templates
+- School of Visual Communication Design
 - Graduate Studio
 - Spring 2024
 
